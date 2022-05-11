@@ -1,0 +1,205 @@
+.caja-principal {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    /* color de fondo */
+    background-color: #F3F5FC;
+    border-radius: 24px;
+}
+
+header {
+    position: absolute;
+    top: 40px;
+    left: 84px;
+}
+
+.encriptador {
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    top: 168px;
+    left: 240px;
+}
+
+#text-area-1 {
+    border: none;
+    background-color: inherit;
+    resize: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    color: #0a3871;
+}
+
+.info {
+    position: absolute;
+    left: 240px;
+    bottom: 156px;
+}
+
+.minusculas {
+    position: absolute;
+    left: 265px;
+    bottom: 170px;
+    width: 205px;
+    height: 18px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+}
+
+.botonera {
+    position: absolute;
+    top: 885px;
+    left: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+}
+
+.btn1 {
+    width: 328px;
+    height: 67px;
+    background-color: #0A3871;
+    border-radius: 24px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+}
+
+.btn2 {
+    width: 328px;
+    height: 67px;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #0A3871;
+    margin: 0px 24px;
+}
+
+.mensaje {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    border-radius: 32px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.muneco {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    top: 263px;
+    left: 32px;
+}
+
+.mensaje-1 {
+    position: absolute;
+    width: 336px;
+    height: 58px;
+    top: 579px;
+    left: 32px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+
+.mensaje-2 {
+    position: absolute;
+    width: 336px;
+    height: 48px;
+    top: 653px;
+    left: 32px;
+
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+#divTextArea {
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    top: 32px;
+    left: 32px;
+    bottom: 131 px;
+}
+
+#muestra-texto {
+    border: none;
+    background-color: inherit;
+    resize: none;
+    font-family: 'inter';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+}
+
+#divButtonCopiar {
+    position: absolute;
+    top: 866px;
+    left: 0px;
+    width: 400px;
+}
+
+.btnCopiar {
+    width: 328px;
+    height: 67px;
+    background-color: inherit;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #0A3871;
+    margin: 0px 36px;
+}
+
+footer {
+    background-color: #0A3871;
+    border-radius: 24px;
+    color: white;
+    margin-top: 0px;
+    width: 1440px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.ocultarDiv {
+    display: none;
+}

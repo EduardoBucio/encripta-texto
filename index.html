@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+
+    <div class="caja-principal">
+        <!-- Inicio Logo -->
+        <header>
+            <img src="logo.svg" alt="logo alura">
+        </header>
+        <!-- Fin Logo -->
+        <div class="secciones">
+            <!-- Inicio Encriptador -->
+            <section class="encriptador">
+                <textarea name="" id="text-area-1" cols="35" rows="15" placeholder=""></textarea>
+            </section>
+            <!-- Fin Encriptador -->
+            <!-- Inicio Instrucciones -->
+            <section class="instrucciones">
+                <div class="info">
+                    <img src="info.svg" alt="">
+                </div>
+                <div class="minusculas">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+            </section>
+            <!-- Fin Instrucciones -->
+            <!-- Inicio Botonera -->
+            <section class="botonera">
+                <button type="button" class="btn1" onclick="encriptar()">
+                    Encriptar
+                </button>
+                <button type="button" class="btn2" onclick="desencriptar()">
+                    Desencriptar
+                </button>
+            </section>
+            <!-- Fin Botonera -->
+            <!-- Inicio Caja de mensaje -->
+            <section class="mensaje">
+
+                <div class="ocultarDiv" id="divTextArea">
+                    <textarea name="" id="muestra-texto" cols="22" rows="21"></textarea>
+                </div>
+
+                <div class="ocultarDiv" id="divButtonCopiar">
+                    <button class="btnCopiar" onclick="copiarAlPortapapeles()">Copiar</button>
+                </div>
+                <div class="muneco" id="divMuneco">
+                    <img src="muneco.svg" alt="">
+                </div>
+                <div class="" id="mensajes">
+                    <p class="mensaje-1">Ningún mensaje fue encontrado</p>
+                    <p class="mensaje-2">Ingresa el texto que deseas encriptar o desencriptar</p>
+                </div>
+            </section>
+            <!-- Fin Caja de mensaje -->
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+<footer>
+    <p>Desarrollado por Eduardo Bucio</p>
+</footer>
+
+</html>
